@@ -2,7 +2,7 @@
 ![Daniel](images/daniel.jpg)
 
 
-##Demo
+## Demo
 https://filipino214.github.io/homepage/
 
 
