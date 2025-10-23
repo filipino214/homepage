@@ -1,0 +1,35 @@
+.container {
+    max-width: 750px;
+    color: #222;
+    background: #d3e2f9;
+    line-height: 1.8;
+    padding: 24px;
+    letter-spacing: 0.3px;
+    text-align: left;
+}
+
+.blueBackground {
+    background: #5071a5;
+}
+
+.header {
+    color: #ff0000;
+}
+
+.subHeader {
+    color: #1311b3;
+  text-shadow: 1px 1px 10px #393939;
+    box-shadow: 1px 1px 3px #323232;
+    padding: 5px 10px;
+    background-color: white;
+
+}
+
+.subHeader:hover {
+    background: #eeee;
+}
+
+.photo {
+    width: 200px;
+    height: auto;
+}
