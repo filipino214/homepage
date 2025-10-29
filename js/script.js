@@ -1,8 +1,20 @@
-console.log("Witam serdecznie wszystkich developerów, którzy tutaj zaglądają! 😍 Ten kod jest już w repozytorium GIT. ");
+{
+    const welcome = () => {
 
-let changeColorButton = document.querySelector(".changeBackground");
-let container = document.querySelector(".container");
+        console.log("Witam serdecznie wszystkich developerów, którzy tutaj zaglądają! 😍 Ten kod jest już w repozytorium GIT. ");
+    }
 
-changeColorButton.addEventListener("click", () => {
-    container.classList.toggle("blueBackground")
-})
+    const toggleBackground = () => {
+        const container = document.querySelector(".container");
+
+        container.classList.toggle("blueBackground");
+    }
+
+    const init = () => {
+        const changeColorButton = document.querySelector(".js-changeBackground");
+        changeColorButton.addEventListener("click", toggleBackground);
+        welcome();
+
+    };
+    init();
+}
